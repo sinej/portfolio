@@ -1,13 +1,13 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
-import Hero from "@src/components/Hero.tsx";
-import Navbar from "@src/components/Navbar";
-import About from "@src/components/About";
-import Tech from "@src/components/Tech";
-import Experience from "@src/components/Experience";
-import Works from "@src/components/Works";
-import Feedbacks from "@src/components/Feedbacks";
-import Contact from "@src/components/Contact";
-import CanvasLoader from "@src/components/Loader";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import About from "./About";
+import Tech from "./Tech";
+import Experience from "./Experience";
+import Works from "./Works";
+import Feedbacks from "./Feedbacks";
+import Contact from "./Contact";
+import CanvasLoader from "./Loader";
 
 
 export {
