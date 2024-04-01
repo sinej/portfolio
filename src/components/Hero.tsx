@@ -1,7 +1,5 @@
-import React from 'react';
-
 import { styles} from "../styles";
-import ComputerCanvas from "./canvas/Computers";
+import ComputersCanvas from "./canvas/Computers.tsx";
 
 const Hero = () => {
     return (
@@ -19,9 +17,10 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <ComputerCanvas/>
+            <ComputersCanvas/>
         </section>
     );
 }
+
 
 export default Hero;
