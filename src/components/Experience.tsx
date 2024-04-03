@@ -7,7 +7,6 @@ import {styles} from "@src/styles.ts";
 import {experiences} from "@src/constants";
 import {SectionWrapper} from "@src/hoc";
 import {fadeIn, textVariant} from "@src/utils/motion.ts";
-import React from "react";
 
 const ExperienceCard = ({ experience }) => (
     <VerticalTimelineElement contentStyle={{ background: "#1d1836", color: "#fff"}}
