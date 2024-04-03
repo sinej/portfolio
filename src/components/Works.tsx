@@ -8,8 +8,20 @@ import { projects } from "@src/constants";
 import { fadeIn, textVariant } from "@src/utils/motion";
 
 interface Props {
-
+    index: number;
+    name: string;
+    description: string;
+    tags: TagProps[];
+    image: string;
+    source_code_link: string;
+    key: string;
 }
+
+interface TagProps {
+    name: string;
+    color: string;
+}
+
 const ProjectCard = ({name, description, tags, image, source_code_link, index }: Props) => {
     return (
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -40,7 +52,7 @@ const ProjectCard = ({name, description, tags, image, source_code_link, index }:
             </div>
 
             <div className="flex items-center justify-start mt-4 flex-wrap gap-2">
-                {tags.map(tag => (
+                {tags.map((tag: TagProps) => (
                     <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                         #{tag.name}
                     </p>
