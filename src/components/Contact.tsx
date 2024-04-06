@@ -1,6 +1,8 @@
-import React from 'react';
+import { SectionWrapper } from "@src/hoc";
+
 
 const Contact = () => {
+
  return (
   <>
     Contact
@@ -8,4 +10,4 @@ const Contact = () => {
  );
 }
 
-export default Contact;
+export default SectionWrapper(Contact, "contact");

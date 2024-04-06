@@ -1,8 +1,7 @@
-import React from 'react';
 import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "@src/styles.ts";
-import { github } from "@src/assets";
+import github from "@src/assets/github.png";
 import { SectionWrapper } from "@src/hoc";
 import { projects } from "@src/constants";
 import { fadeIn, textVariant } from "@src/utils/motion";

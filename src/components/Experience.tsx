@@ -1,4 +1,4 @@
-import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import {motion} from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -6,7 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 import {styles} from "@src/styles.ts";
 import {experiences} from "@src/constants";
 import {SectionWrapper} from "@src/hoc";
-import {fadeIn, textVariant} from "@src/utils/motion.ts";
+import {textVariant} from "@src/utils/motion.ts";
 
 const ExperienceCard = ({ experience }) => (
     <VerticalTimelineElement contentStyle={{ background: "#1d1836", color: "#fff"}}
